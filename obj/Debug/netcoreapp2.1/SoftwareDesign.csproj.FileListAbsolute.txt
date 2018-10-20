@@ -1,0 +1,11 @@
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\bin\Debug\netcoreapp2.1\SoftwareDesign.deps.json
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\bin\Debug\netcoreapp2.1\SoftwareDesign.runtimeconfig.json
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\bin\Debug\netcoreapp2.1\SoftwareDesign.runtimeconfig.dev.json
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\bin\Debug\netcoreapp2.1\SoftwareDesign.dll
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\bin\Debug\netcoreapp2.1\SoftwareDesign.pdb
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.csprojAssemblyReference.cache
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.csproj.CoreCompileInputs.cache
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.AssemblyInfoInputs.cache
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.AssemblyInfo.cs
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.dll
+C:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\obj\Debug\netcoreapp2.1\SoftwareDesign.pdb
