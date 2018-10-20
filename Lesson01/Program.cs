@@ -11,7 +11,7 @@ namespace Lesson01
             if (arabicNum > 999 || arabicNum < 1)
             {
                 if (arabicNum > 999)
-                    return "out of bounce";
+                    return "out of value range";
                 else
                     return "not existing";
             }
@@ -144,7 +144,7 @@ namespace Lesson01
             if(Int32.TryParse(args[0], out arabicNum))
                 Console.WriteLine("The roman number is " + GetRomanNumber(arabicNum));
             else
-                Console.WriteLine("input is not a Number");
+                Console.WriteLine("input is not a number");
             
         }
 
