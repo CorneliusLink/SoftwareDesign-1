@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\test\\test.csproj",
+      "projectUniqueName": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\Lesson02_Praktikum\\test.csproj",
       "projectName": "test",
-      "projectPath": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\test\\test.csproj",
+      "projectPath": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\Lesson02_Praktikum\\test.csproj",
       "packagesPath": "C:\\Users\\JackTheRipper\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\test\\obj\\",
+      "outputPath": "c:\\Users\\JackTheRipper\\Documents\\GitHub\\SoftwareDesign\\Lesson02_Praktikum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
