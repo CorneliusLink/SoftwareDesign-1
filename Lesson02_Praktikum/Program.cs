@@ -5,7 +5,8 @@ namespace test
     class Program
     {
 
-        public static void Initialisierung(){
+        public static void Initialisierung()
+        {
             //Initialisierung
             int i = 12;
             double pi = 3.14;
@@ -14,7 +15,8 @@ namespace test
             Console.WriteLine(i + " " + pi + " " + salute);
         }
 
-        public static void Typinferenz(){
+        public static void Typinferenz()
+        {
             //Typinferenz
             var i1 = 12;
             var pi1 = 3.14d;
@@ -24,8 +26,9 @@ namespace test
             Console.WriteLine(i1 + " " + pi1 + " " + salute2);
         }
 
-        public static void Arryas(){
-            
+        public static void Arryas()
+        {
+
             Console.WriteLine("Arrays");
             //Arrays
             int[] ia = new int[10];
@@ -44,7 +47,7 @@ namespace test
             ia[7] = 7;
             ia[8] = 5;
             ia[9] = 6;
-            
+
             /*
                 ToDo:
                 Variablenname: ia -> Typ: integer   -> 10 Werte
@@ -54,11 +57,11 @@ namespace test
 
             //Zugriff auf einzelne Array-Speicherplätze
 
-            
+
             int ergebnis = ia[2] * ia[8] + ia[4];
 
             Console.WriteLine(ergebnis);
-            
+
 
             /*
             
@@ -71,13 +74,14 @@ namespace test
                 enthalten sind
             */
             //Frage 1: wie kann ich in C# konstanten deklarieren und geht das überhaupt mit Arrays in Java wäre es für variablen public final double PI = 3.14; 
-            double[] constant = {3.14159265359,  2.718, 2.97*(10^-19)};
+            double[] constant = { 3.14159265359, 2.718, 2.97 * (10 ^ -19) };
             Console.WriteLine(constant[0] + " " + constant[1] + " " + constant[2]);
             Console.WriteLine(ia.Length);
         }
 
-        public static void Zeichenkette(){
-            
+        public static void Zeichenkette()
+        {
+
             Console.WriteLine("Strings");
             // Strings
             string a = "eins";
@@ -85,15 +89,16 @@ namespace test
             string c = "eins";
             bool a_eq_b = (a == b);
             bool a_eq_c = (a == c);
-            
+
             string meinString = "Dies ist ein String";
             char zeichen = meinString[5];
-            
+
             Console.WriteLine(zeichen);
         }
 
-        public static void Anweisungen(){
-            
+        public static void Anweisungen()
+        {
+
             Console.WriteLine("Verzweigung if-else");
             //if-else
             Console.WriteLine("Gib eine Zahl für A ein:");
@@ -101,31 +106,37 @@ namespace test
             Console.WriteLine("Gib eine Zahl für B ein:");
             int zahlB = int.Parse(Console.ReadLine());
 
-            if (zahlA < zahlB){
+            if (zahlA < zahlB)
+            {
                 Console.WriteLine("zahlA ist kleiner zahlB");
             }
-            else{
+            else
+            {
                 Console.WriteLine("zahlA ist größer zahlB");
             }
 
-            if (zahlA > 3 && zahlB == 6){
+            if (zahlA > 3 && zahlB == 6)
+            {
                 Console.WriteLine("du hast gewonnen");
             }
-            else{
+            else
+            {
                 Console.WriteLine("Loser");
             }
         }
 
-        public static void Auswahl(){
+        public static void Auswahl()
+        {
             Console.WriteLine("Verzweigung switch-case");
 
             Console.WriteLine();
             Console.WriteLine("Fischers Fritz, Fischt frische Fische. Frische Fische, fischt Fischers Fritz.");
             Console.WriteLine("Welchen Namen trägt die Person im Text oder was tut die Person?");
 
-            string word = Console.ReadLine(); 
-            
-            switch(word){
+            string word = Console.ReadLine();
+
+            switch (word)
+            {
                 case "Fischer":
                     Console.WriteLine(word + " ist der Nachname");
                     break;
@@ -144,14 +155,15 @@ namespace test
 
         }
 
-        public static void Schleifchen(){
+        public static void Schleifchen()
+        {
             Console.WriteLine("");
             Console.WriteLine("Schleifchen");
 
             Console.WriteLine("while-schleife");
             int i = 0;//Initialisierung
 
-            while(i<10)//Bedingung
+            while (i < 10)//Bedingung
             {
                 i++;//Inkrement
                 Console.Write(i + ", ");
@@ -159,7 +171,7 @@ namespace test
 
             Console.WriteLine();
             Console.WriteLine("for-Schleifen");
-            string[] someStrings = 
+            string[] someStrings =
             {
                 "Hier",
                 "sehen",
@@ -169,7 +181,7 @@ namespace test
                 "von",
                 "Strings"
             };
-            
+
             for (int s = 0; s < 5; s++)
             {
                 Console.Write(someStrings[s] + " ");
@@ -178,31 +190,33 @@ namespace test
             Console.WriteLine();
             Console.WriteLine("while-schleife2");
             int w = 0;
-            while(w<someStrings.Length){
+            while (w < someStrings.Length)
+            {
                 Console.Write(someStrings[w] + " ");
                 w++;
             }
             Console.WriteLine("");
             Console.WriteLine("do-while");
-            
-            int i2=0;
+
+            int i2 = 0;
             do
             {
                 Console.Write(someStrings[i2] + " ");
                 i2++;
             }
-            while(i2<someStrings.Length);
+            while (i2 < someStrings.Length);
 
             Console.WriteLine("");
             Console.WriteLine("while-break");
 
             int i3 = 0;
-            while(true){
+            while (true)
+            {
                 Console.Write(someStrings[i3] + " ");
-                if(i3>=someStrings.Length-1)
+                if (i3 >= someStrings.Length - 1)
                     break;
                 i3++;
-            }       
+            }
         }
 
         static void Main(string[] args)

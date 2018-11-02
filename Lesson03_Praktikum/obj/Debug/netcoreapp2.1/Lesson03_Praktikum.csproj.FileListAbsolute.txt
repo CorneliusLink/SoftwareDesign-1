@@ -1,0 +1,11 @@
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.csprojAssemblyReference.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.csproj.CoreCompileInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.AssemblyInfoInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.AssemblyInfo.cs
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\bin\Debug\netcoreapp2.1\Lesson03_Praktikum.deps.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\bin\Debug\netcoreapp2.1\Lesson03_Praktikum.runtimeconfig.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\bin\Debug\netcoreapp2.1\Lesson03_Praktikum.runtimeconfig.dev.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\bin\Debug\netcoreapp2.1\Lesson03_Praktikum.dll
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\bin\Debug\netcoreapp2.1\Lesson03_Praktikum.pdb
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.dll
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson03_Praktikum\obj\Debug\netcoreapp2.1\Lesson03_Praktikum.pdb
