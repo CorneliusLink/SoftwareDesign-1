@@ -1,0 +1,11 @@
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\bin\Debug\netcoreapp2.1\Lesson04.deps.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\bin\Debug\netcoreapp2.1\Lesson04.runtimeconfig.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\bin\Debug\netcoreapp2.1\Lesson04.runtimeconfig.dev.json
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\bin\Debug\netcoreapp2.1\Lesson04.dll
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\bin\Debug\netcoreapp2.1\Lesson04.pdb
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.csprojAssemblyReference.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.csproj.CoreCompileInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.AssemblyInfoInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.AssemblyInfo.cs
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.dll
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson04\obj\Debug\netcoreapp2.1\Lesson04.pdb

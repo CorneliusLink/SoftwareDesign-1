@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Lesson01/bin/Debug/netcoreapp2.1/Lesson01.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Lesson01",
+            "program": "${workspaceFolder}/Lesson03_Praktikum/obj/Debug/netcoreapp2.1/Lesson03_Praktikum.dll",
+            "args": ["22"],
+            "cwd": "${workspaceFolder}/Lesson03_Praktikum",
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
