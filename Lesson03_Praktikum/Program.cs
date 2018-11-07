@@ -37,9 +37,11 @@ namespace Lesson03_Praktikum
         {
 
             try{
-                Console.WriteLine("Geben Sie 3 Dezimal Werte ein: ");
+                Console.WriteLine("Geben Sie die zu konvertierende Nummer ein:");
                 int number = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Geben Sie das aktuelle Zahlensystem ein:");
                 int fromSystem = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("In welches Zahlensystem soll konvertiert werden:");
                 int toSystem = Int32.Parse(Console.ReadLine());
                 
                 Console.WriteLine("Das Ergebnis ist " + ConvertNumberFromSystemToSystem(number, fromSystem, toSystem));
