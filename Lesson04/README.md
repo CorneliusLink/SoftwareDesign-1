@@ -12,7 +12,7 @@ wenn man z.B. Dad aufklappt werden dessen Daten und Eltern angezeigt
 
 das geht bis zum letzten Eltern Paar
 
-![baum.png](./baum.PNG)
+![baum.png](./img/baum.PNG)
 
 damit ist es auch sichtbar das die Datenstruktur rekursiv ist.
 
