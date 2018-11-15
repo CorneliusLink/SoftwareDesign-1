@@ -1,0 +1,4 @@
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson05\obj\Debug\netcoreapp2.1\Lesson05.csprojAssemblyReference.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson05\obj\Debug\netcoreapp2.1\Lesson05.csproj.CoreCompileInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson05\obj\Debug\netcoreapp2.1\Lesson05.AssemblyInfoInputs.cache
+c:\Users\JackTheRipper\Documents\GitHub\SoftwareDesign\Lesson05\obj\Debug\netcoreapp2.1\Lesson05.AssemblyInfo.cs
