@@ -8,39 +8,24 @@ namespace Lesson05
         {
             Console.WriteLine("Gebe einen Text ein:");
             var text = Console.ReadLine();
-            ReverseLetters(text);
-            ReverseWords(text);
-            ReverseSentence(text);
+            
+            Console.WriteLine(ReverseLetters(text));
+            //Console.WriteLine(ReverseWords(text));
+            //Console.WriteLine(ReverseSentence(text));
         }
 
-        static string ReverseLetters(string text)
+        static string ReverseLetters (string text)
         {
             char [] letters = new char [text.Length];
-            char.Reverse;
-            return new String(char);
-        }
+            string charString = "";
 
-        static string ReverseWords(string text)
-        {
-            string [] words = text.Split(' ');
-            words.Reverse;
-            text = String.Join(" ", words);
-
-            return text;
-        }
-
-        static string ReverseSentence(string text)
-        {
-            string [] sentence = text.Split(' ');
-            for(;;i--)
+            for (int i = text.Length-1, k=0; i>=0; i--, k++)
             {
-                outputWords[i];
-                
+                letters[k] = text[i];
+                charString += letters[k];
             }
 
-            sentence.Reverse;
-            return;
-
+            return charString;
         }
     }
 }
