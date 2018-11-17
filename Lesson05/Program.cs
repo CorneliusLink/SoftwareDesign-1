@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Lesson05
 {
@@ -11,8 +11,6 @@ namespace Lesson05
             
             Console.WriteLine(ReverseLetters(text));
             //Console.WriteLine(ReverseWords(text));
-            //Console.WriteLine(ReverseSentence(text));
-        }
 
         static string ReverseLetters (string text)
         {
