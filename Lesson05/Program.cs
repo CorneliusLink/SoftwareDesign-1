@@ -18,16 +18,15 @@ namespace Lesson05
             Console.WriteLine(letters);
         }
 
-        static string ReverseLetters(string text){
+        static string ReverseLetters(string text)
+        {
             string [] wordText = text.Split(' ');
             string [] outputText = new string [wordText.Length];
-            string wordIsTurned = "";
-            string output = "";
+            string output;
 
             for(int i = 0; i <= wordText.Length-1; i++)
             {
-                wordIsTurned = ReverseSentence(wordText[i]);
-                outputText[i] = wordIsTurned;
+                outputText[i] = ReverseSentence(wordText[i]);
             }
             
             output = string.Join(" ", outputText);
