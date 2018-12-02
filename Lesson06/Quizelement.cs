@@ -5,19 +5,10 @@ namespace Lesson06
 {
     public class QuizElement
     {
-        List<Question> questions = new List<Question>()
-        {
-            new Question("Wie lautet die Hauptstadt von Frankrei?"),
-            new Question("Welcher Agent steht im Zusammenhang mit der 'Lizenz zum Töten?"),
-            new Question("Welches Dateiformat öffnet man typischerweise mit dem Acrobat Reader?"),
-            new Question("Welches Betriebssystem stammt von Apple?"),
-            new Question("Wieviele Nieren hat ein Mensch im Normalfall?")            
-        };
-
-        Dictionary<int, Answer[]> quiz = new Dictionary<int, Answer[]>()
+        Dictionary<Question, Answer[]> lisOfQuiz = new Dictionary<Question, Answer[]>()
         {
             {
-                1, 
+                new Question("Wie lautet die Hauptstadt von Frankrei?"), 
                 new Answer[]
                 { 
                     new Answer("Madrid", false),
@@ -27,7 +18,7 @@ namespace Lesson06
                 }
             },
             {
-                2, 
+                new Question("Welcher Agent steht im Zusammenhang mit der 'Lizenz zum Töten?"), 
                 new Answer[]
                 { 
                     new Answer("Kingsman", false),
@@ -37,7 +28,7 @@ namespace Lesson06
                 }
             },
             {
-                3, 
+                new Question("Welches Dateiformat öffnet man typischerweise mit dem Acrobat Reader?"), 
                 new Answer[]
                 { 
                     new Answer("PDF", true),
@@ -47,7 +38,7 @@ namespace Lesson06
                 }
             },
             {
-                4, 
+                new Question("Welches Betriebssystem stammt von Apple?"), 
                 new Answer[]
                 { 
                     new Answer("Zuse", false),
@@ -57,7 +48,7 @@ namespace Lesson06
                 }
             },
             {
-                5, 
+                new Question("Wieviele Nieren hat ein Mensch im Normalfall?"), 
                 new Answer[]
                 { 
                     new Answer("4", false),
@@ -71,11 +62,9 @@ namespace Lesson06
 
         public void Show(){
             Random randomNumber = new Random();
-            int number = randomNumber.Next(0,questions.Count);
-            //string question;
-            Console.WriteLine(questions[number].question);
-
-            Console.WriteLine(quiz[number]);
+            int number = randomNumber.Next(0,lisOfQuiz.Count);
+            Console.WriteLine(lisOfQuiz);
+            //string question = lisOfQuiz.Key.ToString();
 
         }
     }
