@@ -68,6 +68,8 @@ namespace Lesson07
                     Environment.Exit(-1);
                     break;
             }
+
+            Console.WriteLine("Thanks for playing" + score);
         }
     }
 }
